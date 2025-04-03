@@ -1,0 +1,10 @@
+POST http://localhost:8080/pedidos/cartao
+Content-Type: application/json
+
+{
+  "cliente": {
+    "nome": "Maria Oliveira",
+    "email": "maria@email.com"
+  },
+  "valorTotal": 350.50
+}
